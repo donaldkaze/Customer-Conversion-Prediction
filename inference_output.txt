@@ -1,0 +1,12 @@
+sagemaker.config INFO - Applied value from config key = SageMaker.PythonSDK.Modules.Session.DefaultS3ObjectKeyPrefix
+sagemaker.config INFO - Applied value from config key = SageMaker.PythonSDK.Modules.Session.DefaultS3Bucket
+sagemaker.config INFO - Applied value from config key = SageMaker.PythonSDK.Modules.Session.DefaultS3ObjectKeyPrefix
+Creating XGBoost model object...
+Deploying model to endpoint...
+Note: This will take 8-10 minutes. The deployment may fail if:
+  - Model was trained with incompatible XGBoost version
+  - Model file structure is incorrect (should contain xgboost-model in tar.gz)
+
+------!
+✓ SUCCESS! Endpoint deployed: xgboost-conversion-20260129-061858
+You can now use this endpoint to make predictions.
